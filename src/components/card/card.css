@@ -1,0 +1,71 @@
+section .movie-card {
+    border: none;
+    position: relative;
+    border-radius: 0;
+    background: #000000 !important;
+    box-shadow: 0 0 7px rgba(255, 255, 255, .5);
+    transition: .5s;
+}
+
+section .movie-card::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(161, 17, 17, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+}
+
+
+section .movie-card p {
+    height: 48px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
+}
+
+section .movie-card img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+section .movie-card .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    transform: scale(0);
+}
+
+
+section .movie-card .content ion-icon {
+    font-size: 2.6rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+section .movie-card ion-icon:hover {
+    color: var(--primary);
+}
+
+section .movie-card:hover .content,
+section .movie-card:hover::before {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}

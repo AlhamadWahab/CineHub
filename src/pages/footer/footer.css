@@ -1,0 +1,67 @@
+.footer {
+    background: #000;
+    padding: 0 o 30px 0;
+    font-size: 14px;
+}
+
+.footer .footer-top {
+    background: url('../../../public/assets/footer-bg.jpeg');
+    border-top: 1px solid var(--primary);
+    border-bottom: 1px solid var(--primary);
+    padding: 60px 0 30px 0;
+}
+
+.footer span {
+    color: var(--primary);
+}
+
+.footer .footer-top .footer-info {
+    margin-bottom: 30px;
+}
+
+
+.footer .footer-top .footer-info .logo {
+    line-height: 0;
+    margin-bottom: 15px;
+    font-family: 'Racing Sans One', cursive;
+}
+
+.footer .footer-top .footer-info p {
+    color: var(--primary);
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.footer .footer-top .social-links a {
+    font-size: 1.5rem;
+    display: inline-block;
+    color: var(--primary);
+    text-decoration: none;
+    transition: .3s;
+    margin-right: 15px;
+}
+
+
+.footer .footer-top .social-link:hover {
+    color: var(--primary);
+}
+
+
+.footer .footer-top h4 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.footer .footer-top .footer-contact {
+    line-height: 26px;
+    color: #fff;
+}
+
+.footer .copyright {
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,11 @@
+section {
+    background: #000000;
+}
+
+.section-title span {
+    color: var(--primary);
+}
+
+.backBtn {
+    margin-bottom: 50px;
+}

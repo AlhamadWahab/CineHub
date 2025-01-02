@@ -53,7 +53,12 @@ function Banner() {
               </div>
             </div>
           ))}
-
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         {movies && movies.length > 0 && (
           <MovieSwiper slides={movies} onClickSlideChange={handleSlideChange} />
         )}

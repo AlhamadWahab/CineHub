@@ -10,6 +10,7 @@ A web application for querying movie information via the OMDb API and managing m
 ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white)
 ![Ion Icons](https://img.shields.io/badge/Ion%20Icons-5294F8.svg?style=for-the-badge&logo=ionic&logoColor=white)
 ![Swiper](https://img.shields.io/badge/Swiper-6332F5.svg?style=for-the-badge&logo=swiper&logoColor=white)
+![FontAwesome](https://img.shields.io/badge/FontAwesome-339AF0.svg?style=for-the-badge&logo=font-awesome&logoColor=white)
 ![SweetAlert2](https://img.shields.io/badge/SweetAlert2-6A5ACD.svg?style=for-the-badge&logo=sweetalert2&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
